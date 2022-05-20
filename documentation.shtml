@@ -1,0 +1,52 @@
+<!--#include virtual="inc/header.html" --> 
+		<div class="tp-banner-container">
+			<div class="tp-banner" >
+
+				<div class="container-fluid row">
+					<div class="section-heading inverse " style="margin-top: 200px;">
+
+						<h1></h1>
+						<p></p>
+
+						<div class="row" style="margin-top: 80px; text-align: left;">
+							<div class="col-md-1">
+							</div>
+							
+							<div class="col-md-6">
+<h2 style="color: white;">Documentation</h2>
+								<p>
+This page contain examples. For generic information or to get started, you want to check out 
+the <a style="color: white; text-decoration: underline;" href="getting-started.shtml">Getting Started</a> guide.
+<br>
+<br>
+<strong>Scroll down</strong> to browse the examples.
+These examples can also be found in the distributed zip-file, ready to be tested in-game.
+								</p>
+							</div>
+							
+							<div class="col-md-4">
+<img src="image/snowman2.png">
+							</div>
+
+							<div class="col-md-1">
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+    </header>
+<section id="about">
+  <div class="container">
+
+    <div class="section-heading scrollpoint sp-effect3">
+      <h1>Scene and Script Examples</h1>
+    </div>
+
+<?php require_once("examples.php"); ?>
+
+  </div>
+</section>
+
+<!--#include virtual="inc/footer.shtml" --> 

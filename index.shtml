@@ -1,0 +1,169 @@
+<!--#include virtual="inc/header.html" --> 
+        
+        <!-- FMT: homepage/abovefold.fmt -->
+		<!--RevSlider-->
+		<div class="tp-banner-container">
+			<div class="tp-banner" >
+				<ul>
+					<!-- SLIDE  -->
+					<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+						<!-- MAIN IMAGE -->
+						<img src="image/transparent.png"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+						<!-- LAYERS -->
+						<!-- LAYER NR. 1 -->
+						<div class="tp-caption lfl fadeout hidden-xs"
+							data-x="left"
+							data-y="bottom"
+							data-hoffset="30"
+							data-voffset="0"
+							data-speed="500"
+							data-start="700"
+							data-easing="Power4.easeOut">
+							<img src="image/libila.png" alt="">
+						</div>
+
+						<!-- div class="tp-caption lfl fadeout visible-xs"
+							data-x="left"
+							data-y="center"
+							data-hoffset="700"
+							data-voffset="0"
+							data-speed="500"
+							data-start="700"
+							data-easing="Power4.easeOut">
+							<img src="image/freeze/iphone-freeze.png" alt="">
+						</div -->
+
+						<div class="tp-caption large_white_bold sft" data-x="550" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+							Cinematics
+						</div>
+						<div class="tp-caption large_white_light sfr" data-x="890" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1400" data-easing="Power4.easeOut">
+							for
+						</div>
+						<div class="tp-caption large_white_light sfb" data-x="550" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1500" data-easing="Power4.easeOut">
+							Wurm Unlimited
+						</div>
+
+						<div class="tp-caption sfb hidden-xs" data-x="550" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
+							<a href="about.shtml" class="btn btn-primary inverse btn-lg">LEARN MORE</a>
+						</div>
+											</li>
+					<!-- SLIDE 2 -->
+					<li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" >
+						<!-- MAIN IMAGE -->
+						<img src="image/transparent.png"  alt="slidebg1"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+						<!-- LAYERS -->
+						<!-- LAYER NR. 1 -->
+						<div class="tp-caption lfb fadeout hidden-xs"
+							data-x="center"
+							data-y="bottom"
+							data-hoffset="0"
+							data-voffset="0"
+							data-speed="1000"
+							data-start="700"
+							data-easing="Power4.easeOut">
+						</div>
+
+						<div class="tp-caption large_white_light sft" data-x="center" data-y="310" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1400" data-easing="Power4.easeOut">
+							New here? Click getting started. <!-- <i class="fa fa-heart"></i> -->
+						</div>
+						
+						
+					</li>
+                  
+				</ul>
+			</div>
+		</div>
+    </header>
+
+    <div class="wrapper">
+		<!-- FMT: homepage/middle.fmt -->
+	<div style="line-height: 0;">
+    <section id="getApp">
+        <div class="container-fluid">
+            <div class="section-heading inverse scrollpoint sp-effect3">
+                <h1 style="margin-bottom: 30px;">Friya's Cinematics</h1>
+                <p>a client mod for Wurm Unlimited</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="hanging-phone scrollpoint sp-effect2 hidden-xs">
+                        <img src="image/messageboard3.png" alt="">
+                    </div>
+                    <div class="platforms">
+                        <a target="_blank" href="https://forum.wurmonline.com/index.php?/forum/259-mods/" class="btn btn-primary inverse scrollpoint sp-effect1">
+                            <i class="fa fa-cloud fa-3x pull-left"></i>
+                            <span>Original announcement</span><br>
+                            <span>on Wurm Forums</span>
+                        </a>
+                            
+						<a target="_blank" href="https://wurmonline.com" class="btn btn-primary inverse scrollpoint sp-effect2">
+							<i class="fa fa-circle-o fa-3x pull-left"></i>
+							<span>You may also be interested</span><br>
+							<span>in Wurm Online</span>
+						</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- FMT: featurefourpoints/basic.fmt -->
+<section id="about">
+  <div class="container">
+
+    <div class="section-heading scrollpoint sp-effect3">
+      <h1>What can you do?</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="about-item scrollpoint sp-effect2">
+          <i class="fa fa-eye fa-2x"></i>
+          <h3>Show off</h3>
+          <p>
+Spent the last week building that Dragon's Keep? Stashed away a treasure in the highest room of the tallest tower? Why not show it off!
+	  </p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-3 col-xs-6" >
+        <div class="about-item scrollpoint sp-effect5">
+          <i class="fa fa-thumbs-o-up fa-2x"></i>
+          <h3>Movies</h3>
+          <p>
+Create them videos, movies or memes with style.
+Cough up the dough to pay the actors.
+Remember, though, a good shot takes time to set up and get right.
+	  </p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-3 col-xs-6" >
+        <div class="about-item scrollpoint sp-effect5">
+          <i class="fa fa-tachometer fa-2x"></i>
+          <h3>Benchmarking</h3>
+          <p>One of the nice things with reproducible movement is that you can use it for benchmarking. Included here too, just an option away.</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-3 col-xs-6" >
+        <div class="about-item scrollpoint sp-effect1">
+          <i class="fa fa-users fa-2x"></i>
+          <h3>More Features</h3>
+          <p>You can play music, automatically follow things, automatically focus on moving objects, fly along a path, walk slowly. And much much more. Imagination is really the only thing stopping you.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</div>
+
+		<!--#include virtual="inc/footer-content.html" --> 
+
+    </div>
+</body>
+
+</html>

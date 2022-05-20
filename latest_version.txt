@@ -1,0 +1,4 @@
+latestVersion=1.0.0
+downloadAt=http://www.filterbubbles.com/wurm-unlimited/cinematics/download.shtml
+downloadMessage=First public release.
+message=

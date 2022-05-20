@@ -1,0 +1,7 @@
+
+    <div class="wrapper">
+		<!--#include virtual="footer-content.html" --> 
+    </div>
+</body>
+
+</html>

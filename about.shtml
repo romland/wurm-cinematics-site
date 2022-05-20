@@ -1,0 +1,74 @@
+<!--#include virtual="inc/header.html" --> 
+		<div class="tp-banner-container">
+			<div class="tp-banner" >
+
+				<div class="container-fluid row">
+					<div class="section-heading inverse " style="margin-top: 200px;">
+<h1></h1>
+<p></p>
+
+						<div class="row" style="margin-top: 80px; text-align: left;">
+							<div class="col-md-1">
+							</div>
+							
+							<div class="col-md-6">
+								<p>
+   You spend dozens, maybe hundreds or even thousands of hours creating your 
+   homestead, village, island ... world. <br>
+<br>
+   And then you want to show your pals what YOU see and out comes ... rather 
+   dull looking videos. Blech.<br>
+<br>
+   The goal with this is to help making the videos of Wurm more cinematic. Show off
+   your creations in style. Maybe even record real stories. With actors.<br>
+<br>
+   But maybe... hopefully... even sell more people on Wurm ... with us all 
+   releasing sexier videos.<br>
+<br>
+   This is a client mod for the game Wurm Unlimited.<br>
+								</p>
+
+							</div>
+							
+							<div class="col-md-4">
+<img src="image/dragon2.png">
+							</div>
+
+							<div class="col-md-1">
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+    </header>
+<section id="about">
+<section id="about">
+<div class="row" style="margin-top: 80px; text-align: left;">
+<div class="col-md-3">
+</div>
+
+<div class="col-md-6" style="font-size: 18px; font-weight: 400;">
+   <h3>The detailed bits</h3>
+   How does it actually help? The short answer is: It
+   assists you in setting up the right shot by letting you send instructions
+   to the camera in the game, and among a lot of things, automatically adding
+   easing and pathing algorithms to make it ... look good. Experimentation is the name of the game.
+
+   <h3>Videos</h3>
+   During development I added some videos <a target="_blank" href="https://vimeo.com/user61749266">here</a>,
+   note that this is outdated stuff and it was not to show potential but merely to show
+   progress. At some point I'll hopefully get around to adding more creative videos here. :)
+
+   <h3>Credits</h3>
+   maybe a real name here at some point, but privacy = everything
+
+</div>
+
+<div class="col-md-3">
+</div>
+</div>
+
+</section>	
+<!--#include virtual="inc/footer.shtml" --> 

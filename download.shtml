@@ -1,0 +1,39 @@
+<!--#include virtual="inc/header.html" --> 
+		<div class="tp-banner-container">
+			<div class="tp-banner" >
+
+				<div class="container-fluid row">
+					<div class="section-heading inverse " style="margin-top: 200px;">
+
+						<h1></h1>
+						<p></p>
+
+						<div class="row" style="margin-top: 80px; text-align: left;">
+							<div class="col-md-1">
+							</div>
+							
+							<div class="col-md-6">
+								<p>
+Friya's Cinematics<br>
+Version 1.0.0 (alpha, despite the number)<br>
+<a style="color: white" href="http://www.filterbubbles.com/wurm-unlimited/Friya's%20Cinematics%20v1.0.0.zip"><strong>Download this version</strong></a><br>
+<br>
+To install, follow instructions on the <a style="color: white; text-decoration:underline;" href="getting-started.shtml#installing">Getting Started</a> page or open the file GettingStarted.txt in the zip file.<br>
+								</p>
+							</div>
+							
+							<div class="col-md-4">
+<img src="image/yulegoat.png">
+							</div>
+
+							<div class="col-md-1">
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+    </header>
+	
+<!--#include virtual="inc/footer.shtml" --> 

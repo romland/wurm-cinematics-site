@@ -1,0 +1,314 @@
+<!--#include virtual="inc/header.html" --> 
+		<div class="tp-banner-container">
+			<div class="tp-banner" >
+
+				<div class="container-fluid row">
+					<div class="section-heading inverse " style="margin-top: 200px;">
+
+						<h1></h1>
+						<p></p>
+
+						<div class="row" style="margin-top: 80px; text-align: left;">
+							<div class="col-md-1">
+							</div>
+							
+							<div class="col-md-6">
+								<p>
+
+<strong>
+	Don't like being frustrated?<br>
+	Then at least skim the information below.<br>
+</strong>
+<br>
+
+The "Getting Started" information is distributed with the download. After you have
+unzipped the mod you will find it in the "friyas-cinematics" folder.
+<br><br>
+That file is also <strong>included below</strong> on this page, but note that this version is likely 
+more seldom updated than the one in the distributed zip file.
+								
+								</p>
+							</div>
+							
+							<div class="col-md-4">
+<img src="image/facemask.png">
+							</div>
+
+							<div class="col-md-1">
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+    </header>
+	
+<section id="about">
+<div class="row" style="margin-top: 80px; text-align: left;">
+<div class="col-md-3">
+</div>
+
+<div class="col-md-6" style="font-size: 18px; font-weight: 400;">
+
+<a name="installing"></a>
+
+   <h3>Getting started</h3>
+   Quite a bit of time went into designing and developing this software, 
+   take your time exploring it. It will likely pay off.
+<br><br> 
+   But please, at least browse the content below (there really are <strong>important</strong>
+   things there).
+<br><br> 
+   
+   There are a lot of examples, over 50, in fact. These should cover quite a 
+   bit of the functionality available but I am sure I have missed some things
+   which I'll have to revisit later. Do note that while the examples are good
+   at demonstration, they do severely lack in creativity. I'll be cheesy and 
+   say that that bit is left to you.
+<br><br> 
+
+   There are a few things that the examples are unable to convey, the most 
+   important of those things are outlined below. From these pointers you 
+   should be able to get around fine.
+<br><br> 
+
+
+   <h3>Installing</h3>
+<pre>
+   1. Unzip the downloaded zip in your Wurm client's folder.
+      In your mods folder you should now have *four* new items:
+      - friyas-cinematics (folder)
+      - friyas-cinematics.properties
+      - gson-2.8.0.jar
+      - jl1.0.1.jar
+      - SpectatorCommunicator.jar
+<strong>
+   2. You MUST copy (or move) gson-2.8.0.jar, jl.1.0.1.jar and 
+      SpectatorCommunicator.jar to the lib folder of your game. You can find 
+      this folder at the same level as your mods folder.
+
+      i.e. ... Steam\steamapps\common\Wurm Unlimited\WurmLauncher\lib\
+</strong>
+   3. Start game.
+</pre>
+<br><br> 
+
+   <h3>Keybinds</h3>
+   Really, I cannot stress this enough. You WILL want keybinds for a lot of 
+   things, but there's one thing that is actually very crucial:
+<br><br> 
+   
+   Stop script. You really want to bind it.
+<br><br> 
+
+   I do suggest binding more keys to make your life easier, but "Stop Script"
+   is the most important one in case you find yourself without HUD and a 
+   scene running for way longer than you want it to.
+<br><br> 
+
+   Get bdew's "bind any action" mod and install it from here:
+   https://github.com/bdew-wurm/action
+<br><br> 
+
+   Open Wurm console (usually F1, I believe) and type:<br>
+   > act_show on (for future reference in case you want to bind more keys)<br>
+   > bind 8 "act 30551 selected"   (this will bind "stop script" to the '8' key)<br>
+   > bind 7 "act 30550 selected"   (this will bind "start script" to the '7' key)
+<br><br> 
+
+   But NOTE: for the bind to work you first have to click an object or tile so there is something 
+   in the select bar -- or it will quietly fail.
+<br><br> 
+
+
+   <h3>Cinematics Tab</h3>
+   Everything around cinematics will end up in this chat-tab. If you are 
+   creating videos, this is the tab you want to have open. 
+<br><br> 
+   
+   At the time of writing (24 Jun 2018) there is a bug around this, you will
+   not visually get an indicator that the tab is open when you first start
+   up the game. I'll get around to fixing it at some point. :)
+<br><br> 
+
+   Closing the Cinematics chat tab will effectively disable the mod and 
+   remove all features it may provide (such as location, no own-body etc).
+<br><br> 
+
+
+   <h3>Cinematics Menu</h3>
+   Right click on any object in the game world, the very last menu entry is
+   called "Friya's Cinematics". You'll find the basic operations here.
+<br><br> 
+
+
+   <h3>The Examples</h3>
+   The examples are normal text files on your computer (more on that later),
+   but they can of course also also be found inside Wurm:
+<br><br> 
+   
+   Load examples from the "Load Script" dialog in the Cinematics menu.
+<br><br> 
+   
+   If you are more into typing, you can do:<br>
+   /loadscript examples/name-of-example
+<br><br> 
+   
+   Likewise, if you are browsing the examples, you have the convenience
+   commands (can be used in any chat-tab):<br>
+   /example next and /example previous
+<br><br> 
+   
+   To bind these two to keys enter the following in your Console:<br>
+   > bind Numpad4 "example previous"<br>
+   > bind Numpad6 "example next"<br>
+   Will them bind to numpad's 4 and 6 keys.
+<br><br> 
+
+   To run a loaded script, go to Cinematics menu and choose:
+   Run script
+<br><br> 
+
+   To stop a script, use the menu or your keybind (! see above).
+<br><br> 
+
+
+   <h3>The Scene Designer</h3>
+   In the Cinematics menu you'll find a sub-menu called "Scene Designer".
+   Here you can create quick (but simple) scenes and run them, and from there on 
+   refine (see "Creating your own scripts" below).
+<br><br> 
+   
+   A script you are creating in Scene Designer is automatically "loaded", so 
+   when you do "run script" it will always use the current version. There is 
+   never a need to reload the script after changes if it is the currently loaded 
+   script.
+<br><br> 
+
+   The name "Scene Designer" really implies a lot more than what it is. It is 
+   more there to make you familiar with functionality than it is to design 
+   real scenes. I find myself often using it to create a base with which I 
+   expand upon, though. For instance, creating move waypoints and then edit
+   manually.
+<br><br> 
+
+   All scenes created using Scene Designer will last for 10 seconds. This may 
+   not be what you want, you should edit the saved script to change it. If you 
+   move over a large distance in a short time, you will likely be kicked out 
+   by an unmodded server.
+<br><br> 
+
+
+   <h3>Examples part deux</h3>
+   Once you've gotten the hang of things, you will NO DOUBT want to work with 
+   your scripts manually.
+<br><br> 
+      
+   You can find all the relevant files here:
+   [Steam Folder]\Wurm Unlimited\WurmLauncher\mods\friyas-cinematics\Cinematics\
+<br><br> 
+   
+   Inside this folder you should find a few sub-folders: audio, effects, 
+   examples and templates. The one that is probably the most interesting to you 
+   right now is the examples folder.
+<br><br> 
+   
+   Changes made to scripts on your harddisk will automatically be loaded when
+   you run them in game. There is no need to reload scripts after changes.
+<br><br> 
+
+
+   <h3>Knowing your location</h3>
+   You don't need to install any third party mods to see where you are, just 
+   right click your character portrait and select "Toggle name display" and you
+   will see your coordinate and facing direction.
+<br><br> 
+
+
+   <h3>Creating your own scenes, scripts...</h3>
+   Remember that everything is line-based. A command (e.g. /camera...) must 
+   be on one line, a waypoint on another, target on another.*
+<br><br> 
+
+   In the cinematics menu you have "Edit Script", this will open up your 
+   system text editor -- edit away. You do not have to reload your script in
+   the game -- it will always use latest saved version.
+<br><br> 
+
+   To create a script from scratch, simply save it in the Cinematics folder and
+   it will appear when you open "Load Script" or use /loadscript in the game.
+<br><br> 
+   
+   If you want to reference audio from your scripts, place the files in the 
+   audio folder.
+<br><br> 
+
+   The templates folder contains the basis of scripts created using the in-game
+   "Scene Designer". This functionality is a bit lacking at the moment, but I'm
+   not sure where to take it from here yet.
+<br><br> 
+
+   Remember: Finding and creating the good shot takes time -- at least for me.
+<br><br> 
+
+   * There is/was a plan to also make this console-command based so you could bind
+     movements to keys with e.g. "/camera move for 1s: target +1 0 0;". But I
+     have not found enough *compelling* reasons to do so yet.
+<br><br> 
+
+
+   <h3>Useful other mods</h3>
+   On your SERVER you probably want to install my mod called "GM Goto" or when
+   available the "Spectator" mod.
+<br><br> 
+   
+   On CLIENT side, other than Bdew's action mod, you may want to install the 
+   timelock mod, also by Bdew.
+<br><br> 
+   
+   If I get the inspiration I will likely add similar functionality here to
+   make it a bit easier (and more predictable) to use.
+<br><br> 
+
+
+   <h3>F10 to toggle HUD</h3>
+   In case you did not know, or forgot. F10 toggles your HUD. There's one 
+   exception here, it will not work if you have enabled the benchmarking
+   option.
+<br><br> 
+   
+   So, beware.
+<br><br> 
+
+
+   <h3>Shutting down Wurm</h3>
+   This mod removes the "Are you sure you want to quit?" question. If you press 
+   alt+f4 or exit in some other way it wil immediately exit your client. 
+<br><br> 
+   
+   Yes. I have been waging war with that question.
+<br><br> 
+
+
+   <h3>Mod options</h3>
+   The .properties file has some options you can toggle. At the time of writing
+   this is not documented here but knowing me, I've probably written comments
+   at every option in there. Maybe.
+<br><br> 
+
+
+   That's it. For now.
+<br><br> 
+
+   If you enjoy this, please let me know. It's good for inspiration...
+<br><br> 
+   
+   Cheers,<br>
+   Friya<br>
+</div>
+<div class="col-md-3">
+</div>
+</div>
+</section>
+<!--#include virtual="inc/footer.shtml" --> 
